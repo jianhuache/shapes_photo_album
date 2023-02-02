@@ -1,0 +1,10 @@
+# best with window > 700 x 700
+shape head oval 350 350 200 200 255 255 0
+shape brow1 rectangle 395 390 20 10 0 0 0
+shape brow2 rectangle 475 390 20 10 0 0 0
+shape left oval 400 425 15 15 0 0 0
+shape right oval 480 425 15 15 0 0 0
+shape mouth oval 420 475 90 25 0 0 0
+shape mouth2 oval 400 465 100 25 255 255 0
+
+snapshot Face of the Sun

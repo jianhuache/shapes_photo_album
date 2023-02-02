@@ -1,0 +1,51 @@
+# best with window > 1000 x 1000 for svg
+shape S0 rectangle 100 75 20 15 255 0 255
+shape S1 rectangle 90 90 40 15 255 153 100
+shape S2 rectangle 80 105 60 15 142 178 0
+snapshot One
+shape S3 rectangle 70 120 80 15 51 255 0
+shape S5 rectangle 50 135 120 15 0 178 178
+shape S6 rectangle 40 150 140 15 0 102 255
+shape S7 rectangle 30 165 160 15 51 0 255
+
+snapshot Two
+shape S8 rectangle 20 180 180 15 204 0 255
+shape S9 rectangle 10 195 200 15 255 0 153
+
+snapshot Three
+move S0 600 195
+move S1 590 180
+move S2 580 165
+move S3 570 150
+move S5 560 135
+move S6 550 120
+move S7 540 105
+move S8 530 90
+move S9 520 75
+
+snapshot Four
+color S0 0 255 0
+color S1 255 0 0
+color S2 0 0 255
+move S3 20 20
+move S5 20 180
+resize S3 200 15
+resize S5 200 15
+shape SO1 oval 40 70 30 30 0 0 255
+
+snapshot Five
+remove S0
+remove S1
+remove S2
+remove S6
+remove S7
+remove S8
+remove S9
+move SO1 150 70
+snapshot Six
+
+move SO1 40 70
+snapshot Seven
+
+move SO1 150 70
+snapshot Done!
